@@ -1,0 +1,16 @@
+{
+  "name": "hello-mongodb",
+  "version": "1.0.0",
+  "description": "Lab 2, following MongoDB Getting Started guide",
+  "main": "connect.js",
+  "scripts": {
+    "start": "nodemon connect.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keegan Colter",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.9.0"
+  }
+}
